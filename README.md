@@ -2,7 +2,7 @@
 
 ## Analisis Big Data untuk Distribusi Status Reservasi Hotel
 
-Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data besar (Big Data) yang terkait dengan distribusi status reservasi hotel. Di dalamnya terdapat kode dan penjelasan untuk mengeksplorasi, memvisualisasikan, dan memahami pola data dalam konteks bisnis perhotelan.
+Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data besar (Big Data) yang terkait dengan distribusi status reservasi hotel. Yang terdapat kode dan penjelasan untuk mengeksplorasi, memvisualisasikan, dan memahami pola data dalam konteks bisnis perhotelan.
 ---
 
 ## Daftar Isi
@@ -59,12 +59,14 @@ Proyek ini menawarkan fitur berikut:
 ---
 
 ## Dependensi
-Proyek ini telah diuji menggunakan Python 3.9 dan pustaka berikut:  
-- `pandas`, versi 1.3.3  
-- `numpy`, versi 1.21.2  
-- `matplotlib`, versi 3.4.3  
-- `seaborn`, versi 0.11.2  
-- `jupyterlab`, versi 3.1.18  
+- `Tensorflow` >= 2.17.1
+- `Panda` >= 2.2.2
+- `Numpy` >= 1.26.4
+- `Matplotlib.Pyplot` >= 3.8.0
+- `Seaborn` >= 0.13.2
+- `Sklearn Pandas` >= 2.2.0
+- `Scikit-Learn` >= 1.6.0
+- `python` >= 3.10 
 
 Untuk informasi lebih lanjut, lihat file `requirements.txt` di repositori ini.
 
