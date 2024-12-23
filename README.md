@@ -11,7 +11,6 @@ Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data
 - [Fitur Utama](#fitur-utama)
 - [Dependensi](#dependensi)
 - [Cara Memulai](#cara-memulai)
-- [Lisensi](#lisensi)
 - [Tim](#tim)
 - [Ucapan Terima Kasih](#ucapan-terima-kasih)
 
@@ -92,13 +91,10 @@ Untuk informasi lebih lanjut, lihat file `requirements.txt` di repositori ini.
    jupyter lab
    ```
 
-5. Buka file `Tugas_Akhir_Analisis_Big_Data.ipynb` di Jupyter Notebook Anda dan ikuti langkah-langkah analisis di dalamnya.
-
-## Lisensi
-Proyek ini dilisensikan di bawah lisensi MIT. Silakan baca file `LICENSE` untuk informasi lebih lanjut.
-
 ## Tim
-- **Nama Anda** - Developer Utama dan Penulis
+- 👨‍💻 [Nadiya Dewi Al Khlifi](https://github.com/Nadiyaal)
+- 👨‍💻 [Mufidatul Nabilla Khasanah](https://github.com/Nadiyaal)
+- 👨‍💻 [Nadia Humaira](https://github.com/Nadiyaal)
 
 ## Ucapan Terima Kasih
 Saya ingin mengucapkan terima kasih kepada pembimbing, keluarga, dan teman-teman atas dukungan dan bimbingannya selama pengerjaan proyek ini. Terima kasih juga kepada komunitas Python yang telah menyediakan dokumentasi dan pustaka yang luar biasa.
