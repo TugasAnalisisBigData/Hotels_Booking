@@ -10,7 +10,6 @@ Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data
 - [Diagram Alur Proses](#diagram-alur-proses)
 - [Fitur Utama](#fitur-utama)
 - [Dependensi](#dependensi)
-- [Cara Memulai](#cara-memulai)
 - [Tim](#tim)
 - [Ucapan Terima Kasih](#ucapan-terima-kasih)
 
@@ -71,27 +70,6 @@ Proyek ini menawarkan fitur berikut:
 Untuk informasi lebih lanjut, lihat file `requirements.txt` di repositori ini.
 
 ---
-
-## Cara Memulai
-1. Clone repositori ini ke komputer Anda menggunakan perintah berikut:  
-   ```bash  
-   git clone https://github.com/username/Tugas-Akhir-Analisis-Big-Data.git  
-
-
-2. Masuk ke direktori proyek:
-   ```bash
-   cd Tugas-Akhir-Analisis-Big-Data
-   ```
-
-3. Instal semua dependensi yang dibutuhkan:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Jalankan Jupyter Notebook:
-   ```bash
-   jupyter lab
-   ```
 
 ## Tim
 - 👨‍💻 [Nadiya Dewi Al Khlifi](https://github.com/Nadiyaal)
