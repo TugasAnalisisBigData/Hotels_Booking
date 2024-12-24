@@ -71,7 +71,7 @@ Untuk informasi lebih lanjut, lihat file `requirements.txt` di repositori ini.
 
 ## Tim
 - 👨‍💻 [Nadiya Dewi Al Khlifi](https://github.com/Nadiyaal)
-- 👨‍💻 [Mufidatul Nabilla Khasanah](https://github.com/Nadiyaal)
+- 👨‍💻 [Mufidatul Nabilla Khasanah](https://github.com/MufidatulNabilla)
 - 👨‍💻 [Nadia Humaira](https://github.com/Nadiyaal)
 
 ## Ucapan Terima Kasih
