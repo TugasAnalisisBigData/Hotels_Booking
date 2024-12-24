@@ -15,7 +15,7 @@ Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data
 ---
 
 ## Tentang
-Proyek ini bertujuan untuk memberikan wawasan tentang pola status reservasi meliputi "Canceled," dan "Not Canceled" pada data hotel. Melalui analisis ini, kita dapat memahami pola musiman, tren pembatalan, dan ketidakhadiran tamu, yang semuanya bermanfaat untuk pengambilan keputusan strategis di industri perhotelan.
+Proyek ini bertujuan untuk memberikan wawasan tentang pola status reservasi meliputi "Canceled," dan "Not Canceled" pada data hotel. Melalui analisis ini, dapat memahami pola musiman, tren pembatalan, dan ketidakhadiran tamu, yang semuanya bermanfaat untuk pengambilan keputusan strategis di industri perhotelan.
 
 Sebagai bagian dari proyek ini, sebuah Storyboard telah disiapkan untuk memberikan gambaran visual mengenai alur analisis dan hasil utama. **Link Storyboard**: [Klik di sini untuk melihat Storyboard](https://prezi.com/p/edit/gc0hoobcnzab/). Dalam proyek ini, menggunakan Python dan pustaka visualisasi data untuk membuat grafik interaktif dan informatif. File utama proyek ini berupa sebuah Jupyter Notebook yang berisi analisis data langkah demi langkah, mulai dari persiapan data hingga visualisasi hasil.
 
