@@ -8,7 +8,6 @@ Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data
 ## Daftar Isi
 - [Tentang](#tentang)
 - [Diagram Alur Proses](#diagram-alur-proses)
-- [Fitur Utama](#fitur-utama)
 - [Dependensi](#dependensi)
 - [Tim](#tim)
 - [Ucapan Terima Kasih](#ucapan-terima-kasih)
@@ -16,9 +15,9 @@ Selamat datang di proyek Tugas Akhir ini! Proyek ini berfokus pada analisis data
 ---
 
 ## Tentang
-Proyek ini bertujuan untuk memberikan wawasan tentang pola status reservasi seperti "Check-Out," "Canceled," dan "No-Show" pada data hotel. Melalui analisis ini, kita dapat memahami pola musiman, tren pembatalan, dan ketidakhadiran tamu, yang semuanya bermanfaat untuk pengambilan keputusan strategis di industri perhotelan.
+Proyek ini bertujuan untuk memberikan wawasan tentang pola status reservasi meliputi "Canceled," dan "Not Canceled" pada data hotel. Melalui analisis ini, kita dapat memahami pola musiman, tren pembatalan, dan ketidakhadiran tamu, yang semuanya bermanfaat untuk pengambilan keputusan strategis di industri perhotelan.
 
-Dalam proyek ini, kami menggunakan Python dan pustaka visualisasi data untuk membuat grafik interaktif dan informatif. File utama proyek ini berupa sebuah Jupyter Notebook yang berisi analisis data langkah demi langkah, mulai dari persiapan data hingga visualisasi hasil.
+Sebagai bagian dari proyek ini, sebuah Storyboard telah disiapkan untuk memberikan gambaran visual mengenai alur analisis dan hasil utama. **Link Storyboard**: [Klik di sini untuk melihat Storyboard](https://prezi.com/p/edit/gc0hoobcnzab/). Dalam proyek ini, menggunakan Python dan pustaka visualisasi data untuk membuat grafik interaktif dan informatif. File utama proyek ini berupa sebuah Jupyter Notebook yang berisi analisis data langkah demi langkah, mulai dari persiapan data hingga visualisasi hasil.
 
 ---
 
@@ -27,34 +26,35 @@ Tahapan analisis dalam proyek ini dapat divisualisasikan dalam diagram berikut:
 
 ![Analisis drawio](https://github.com/user-attachments/assets/b464487b-c17b-4da6-953c-fdf6f017ed0e)
 
-### Penjelasan Diagram
+### Penjelasan Diagram  
+
 1. **Dataset**  
-   Proses dimulai dengan dataset utama berupa file `Hotels.csv`, yang berisi data reservasi hotel.
+   Analisis dimulai dengan dataset utama, yaitu `Hotels.csv`, yang berisi informasi tentang status reservasi hotel. Dataset ini mencakup beberapa fitur penting seperti tanggal reservasi, durasi menginap, jenis kamar, jumlah tamu, dan status reservasi (Canceled atau Not Canceled).  
 
 2. **Pra-Pemrosesan Data**  
-   Tahap ini mencakup tiga langkah utama:  
-   - **Mengatasi Nilai NAN:** Membersihkan data dengan menghapus atau mengisi nilai kosong (NAN).  
-   - **Konversi Data:** Mengubah tipe data menjadi format yang sesuai untuk analisis.  
-   - **Normalisasi Data:** Menstandarkan data agar lebih konsisten dan mudah dianalisis.
+   Tahapan pra-pemrosesan melibatkan beberapa langkah:  
+   - **Mengatasi Nilai NAN:** Dataset dibersihkan dengan cara menghapus baris atau kolom yang memiliki banyak nilai kosong (NAN), atau menggantinya dengan nilai tertentu, seperti rata-rata untuk kolom numerik.
+   - **Penghapusan Kolom**: Penghapusan kolom `country` 
+   - **Konversi Data:** Kolom tertentu, seperti tanggal, dikonversi ke format datetime untuk memudahkan analisis waktu. Kolom kategorikal diubah menjadi numerik menggunakan teknik seperti one-hot encoding atau label encoding.  
+   - **Normalisasi Data:** Data numerik dinormalisasi agar berada dalam rentang tertentu untuk memastikan model bekerja lebih baik.  
 
 3. **Visualisasi Data**  
-   Data yang telah diproses divisualisasikan untuk mengidentifikasi pola dan tren yang relevan.
+   Data yang telah diproses divisualisasikan menggunakan pustaka seperti Matplotlib dan Seaborn. Visualisasi ini mencakup:  
+   - Grafik batang untuk melihat distribusi status reservasi.  
+   - Heatmap untuk menganalisis korelasi antar fitur.  
+   - Tren musiman pembatalan berdasarkan bulan atau tahun.  
 
 4. **Pemodelan Random Forest**  
-   Dilakukan pemodelan menggunakan algoritma Random Forest untuk menganalisis dan memprediksi pola status reservasi.
+   Model Random Forest digunakan untuk mengklasifikasikan status reservasi. Proses ini mencakup:  
+   - Pemisahan data menjadi set pelatihan dan pengujian.  
+   - Pelatihan model pada set pelatihan dengan hyperparameter yang telah disesuaikan.  
+   - Evaluasi model menggunakan metrik seperti akurasi, precision, recall, dan F1-score untuk mengukur kinerja model.  
 
 5. **Rangkuman**  
-   Proyek diakhiri dengan rangkuman dari hasil analisis dan wawasan yang diperoleh, yang digunakan untuk mendukung pengambilan keputusan strategis.
-
----
-
-## Fitur Utama
-Proyek ini menawarkan fitur berikut:  
-- **Eksplorasi Data:** Membersihkan dan mempersiapkan dataset untuk analisis.  
-- **Visualisasi Data:** Menampilkan distribusi data secara grafik untuk mendapatkan wawasan lebih dalam.  
-- **Pola Musiman:** Menganalisis tren musiman pada status reservasi.  
-- **Reproduksibilitas:** Semua kode disertakan untuk reproduksi penuh hasil.
-
+   Proyek ini diakhiri dengan merangkum hasil analisis, seperti:  
+   - Identifikasi fitur utama yang memengaruhi status pembatalan.  
+   - Wawasan tentang pola musiman atau tren pembatalan.  
+   - Rekomendasi untuk pengelola hotel, seperti penyesuaian strategi reservasi atau promosi berdasarkan hasil analisis.  
 ---
 
 ## Dependensi
@@ -77,9 +77,9 @@ Untuk informasi lebih lanjut, lihat file `requirements.txt` di repositori ini.
 - 👨‍💻 [Nadia Humaira](https://github.com/Nadiyaal)
 
 ## Ucapan Terima Kasih
-Saya ingin mengucapkan terima kasih kepada pembimbing, keluarga, dan teman-teman atas dukungan dan bimbingannya selama pengerjaan proyek ini. Terima kasih juga kepada komunitas Python yang telah menyediakan dokumentasi dan pustaka yang luar biasa.
+Kami ingin mengucapkan terima kasih kepada dosen mata kuliah Analisis Big Data, dan teman-teman sekolompok atas kontribusi dalam penyelesain tugas akhir selama pengerjaan proyek ini.
 
 ---
 
-Semoga proyek ini bermanfaat untuk Anda dalam memahami analisis data besar di dunia nyata. Jika Anda memiliki pertanyaan atau saran, jangan ragu untuk membuat *issue* di repositori ini. Selamat menganalisis!
+Semoga proyek ini bermanfaat untuk dalam memahami analisis data besar di dunia nyata. Jika memiliki pertanyaan atau saran, jangan ragu untuk membuat *issue* di repositori ini. Selamat menganalisis!
 
