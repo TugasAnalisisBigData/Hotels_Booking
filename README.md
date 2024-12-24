@@ -39,10 +39,7 @@ Tahapan analisis dalam proyek ini dapat divisualisasikan dalam diagram berikut:
    - **Normalisasi Data:** Data numerik dinormalisasi agar berada dalam rentang tertentu untuk memastikan model bekerja lebih baik.  
 
 3. **Visualisasi Data**  
-   Data yang telah diproses divisualisasikan menggunakan pustaka seperti Matplotlib dan Seaborn. Visualisasi ini mencakup:  
-   - Grafik batang untuk melihat distribusi status reservasi.  
-   - Heatmap untuk menganalisis korelasi antar fitur.  
-   - Tren musiman pembatalan berdasarkan bulan atau tahun.  
+   Data yang telah diproses divisualisasikan dengan diagram histogram 
 
 4. **Pemodelan Random Forest**  
    Model Random Forest digunakan untuk mengklasifikasikan status reservasi. Proses ini mencakup:  
@@ -54,7 +51,8 @@ Tahapan analisis dalam proyek ini dapat divisualisasikan dalam diagram berikut:
    Proyek ini diakhiri dengan merangkum hasil analisis, seperti:  
    - Identifikasi fitur utama yang memengaruhi status pembatalan.  
    - Wawasan tentang pola musiman atau tren pembatalan.  
-   - Rekomendasi untuk pengelola hotel, seperti penyesuaian strategi reservasi atau promosi berdasarkan hasil analisis.  
+   - Rekomendasi untuk pengelola hotel, seperti penyesuaian strategi reservasi atau promosi berdasarkan hasil analisis.
+      
 ---
 
 ## Dependensi
